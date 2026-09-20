@@ -1,5 +1,17 @@
 # T4SG Fall 2026 Application Deliverable
 
+## Note on submission timing
+
+Features 1 and 2 (species detail view and edit species) were completed
+and submitted before the deadline (I had an extension till 11:59pm of Saturday) via Google Form on [9/19 11:39 pm], along with
+a live deployed link and GitHub repo.
+
+Feature 3 (data visualization) was not completed in time and was
+reported as such in that submission. After the deadline, I diagnosed
+and fixed a bug in the chart (the CSV filename had accidental leading
+spaces) and pushed that fix separately — see the commit timestamped
+after my form submission for exactly what changed and when.
+
 - [T4SG Fall 2026 Application Deliverable](#t4sg-fall-2026-application-deliverable)
   - [Introduction](#introduction)
   - [Setup](#setup)
