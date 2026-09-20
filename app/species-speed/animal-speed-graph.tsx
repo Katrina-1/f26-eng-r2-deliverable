@@ -18,9 +18,9 @@ export default function AnimalSpeedGraph() {
 
   useEffect(() => {
     csv("/sample_animals.csv", (d) => ({
-      name: d.name as string,
-      speed: +(d.speed as string),
-      diet: d.diet as string,
+    name: d.name!,
+    speed: +d.speed!,
+    diet: d.diet!,
     }))
       .then((data) => setAnimalData(data as unknown as AnimalDatum[]))
       .catch((err) => console.error("Failed to load animal data", err));
