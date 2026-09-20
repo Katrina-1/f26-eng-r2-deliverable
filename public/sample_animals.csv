@@ -1,0 +1,10 @@
+name,speed,diet
+Cheetah,120,carnivore
+Lion,80,carnivore
+Wolf,60,carnivore
+Rabbit,56,herbivore
+Elephant,40,herbivore
+Giraffe,60,herbivore
+Bear,50,omnivore
+Pig,17,omnivore
+Raccoon,24,omnivore
